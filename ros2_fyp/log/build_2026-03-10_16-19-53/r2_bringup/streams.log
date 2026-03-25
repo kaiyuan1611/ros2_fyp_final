@@ -1,0 +1,37 @@
+[0.057s] Invoking command in '/home/tee/ros2_fyp/build/r2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/r2_bringup -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/r2_bringup
+[0.120s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.075s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.078s] -- Added test 'lint_cmake' to check CMake code style
+[1.080s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.089s] -- Added test 'xmllint' to check XML markup files
+[1.094s] -- Configuring done
+[1.124s] -- Generating done
+[1.134s] -- Build files have been written to: /home/tee/ros2_fyp/build/r2_bringup
+[1.143s] Invoked command in '/home/tee/ros2_fyp/build/r2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/r2_bringup -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/r2_bringup
+[1.152s] Invoking command in '/home/tee/ros2_fyp/build/r2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_bringup -- -j4 -l4
+[1.306s] Invoked command in '/home/tee/ros2_fyp/build/r2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_bringup -- -j4 -l4
+[1.356s] Invoking command in '/home/tee/ros2_fyp/build/r2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_bringup
+[1.386s] -- Install configuration: ""
+[1.388s] -- Execute custom install script
+[1.390s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/astra_camera.launch.py
+[1.391s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/bringup.launch.py
+[1.391s] -- Symlinking: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/filtered_octomap.launch.py
+[1.426s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/octomap.launch.py
+[1.427s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/package_run_dependencies/r2_bringup
+[1.428s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/parent_prefix_path/r2_bringup
+[1.429s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/ament_prefix_path.sh
+[1.430s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/ament_prefix_path.dsv
+[1.431s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/path.sh
+[1.432s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/path.dsv
+[1.433s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.bash
+[1.434s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.sh
+[1.435s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.zsh
+[1.436s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.dsv
+[1.437s] -- Symlinking: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/package.dsv
+[1.472s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/packages/r2_bringup
+[1.473s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/cmake/r2_bringupConfig.cmake
+[1.474s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/cmake/r2_bringupConfig-version.cmake
+[1.475s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/package.xml
+[1.482s] Invoked command in '/home/tee/ros2_fyp/build/r2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_bringup

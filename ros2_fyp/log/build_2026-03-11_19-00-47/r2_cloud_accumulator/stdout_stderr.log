@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info
+writing ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/PKG-INFO
+writing dependency_links to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/dependency_links.txt
+writing entry points to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/entry_points.txt
+writing requirements to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/requires.txt
+writing top-level names to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/top_level.txt
+writing manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'
+reading manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'
+writing manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tee/ros2_fyp/build/r2_cloud_accumulator/build
+creating /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib
+creating /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator
+copying r2_cloud_accumulator/__init__.py -> /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator
+copying r2_cloud_accumulator/cloud_accumulator.py -> /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator
+running install
+running install_lib
+creating /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator
+copying /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator/__init__.py -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator
+copying /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator/cloud_accumulator.py -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator
+byte-compiling /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator/cloud_accumulator.py to cloud_accumulator.cpython-310.pyc
+running install_data
+creating /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/ament_index
+creating /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/ament_index/resource_index
+creating /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/ament_index/resource_index/packages
+copying resource/r2_cloud_accumulator -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/ament_index/resource_index/packages
+copying package.xml -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/r2_cloud_accumulator
+creating /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/r2_cloud_accumulator/launch
+copying launch/cloud_accumulator.launch.py -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/r2_cloud_accumulator/launch
+running install_egg_info
+Copying ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator-0.1.0-py3.10.egg-info
+running install_scripts
+Installing cloud_accumulator script to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/r2_cloud_accumulator
+writing list of installed files to '/home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log'

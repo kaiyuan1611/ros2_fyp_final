@@ -1,0 +1,24 @@
+[3.699s] Invoking command in '/home/tee/ros2_fyp/src/r2_wheel_odometry_and_imu': PYTHONPATH=/home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_wheel_odometry_and_imu build --build-base /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/build install --record /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/install.log --single-version-externally-managed install_data
+[5.083s] running egg_info
+[5.086s] writing ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/PKG-INFO
+[5.101s] writing dependency_links to ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/dependency_links.txt
+[5.117s] writing entry points to ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/entry_points.txt
+[5.132s] writing requirements to ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/requires.txt
+[5.150s] writing top-level names to ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/top_level.txt
+[5.175s] reading manifest file '../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/SOURCES.txt'
+[5.181s] writing manifest file '../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/SOURCES.txt'
+[5.209s] running build
+[5.210s] running build_py
+[5.213s] copying r2_wheel_odometry_and_imu/wheel_odom_and_imu.py -> /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/build/lib/r2_wheel_odometry_and_imu
+[5.216s] running install
+[5.218s] running install_lib
+[5.223s] copying /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/build/lib/r2_wheel_odometry_and_imu/wheel_odom_and_imu.py -> /home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages/r2_wheel_odometry_and_imu
+[5.227s] byte-compiling /home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages/r2_wheel_odometry_and_imu/wheel_odom_and_imu.py to wheel_odom_and_imu.cpython-310.pyc
+[5.253s] running install_data
+[5.255s] running install_egg_info
+[5.265s] removing '/home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages/r2_wheel_odometry_and_imu-0.1.0-py3.10.egg-info' (and everything under it)
+[5.267s] Copying ../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info to /home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages/r2_wheel_odometry_and_imu-0.1.0-py3.10.egg-info
+[5.280s] running install_scripts
+[5.377s] Installing wheel_odom_and_imu script to /home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/r2_wheel_odometry_and_imu
+[5.402s] writing list of installed files to '/home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/install.log'
+[5.586s] Invoked command in '/home/tee/ros2_fyp/src/r2_wheel_odometry_and_imu' returned '0': PYTHONPATH=/home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_wheel_odometry_and_imu build --build-base /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/build install --record /home/tee/ros2_fyp/build/r2_wheel_odometry_and_imu/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+wheel_odom = r2_wheel_odometry.wheel_odom:main
+

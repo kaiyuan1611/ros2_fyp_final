@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/PKG-INFO
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/SOURCES.txt
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/dependency_links.txt
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/entry_points.txt
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/requires.txt
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/top_level.txt
+../../build/r2_wheel_odometry_and_imu/r2_wheel_odometry_and_imu.egg-info/zip-safe
+r2_wheel_odometry_and_imu/__init__.py
+r2_wheel_odometry_and_imu/wheel_odom_and_imu.py
+resource/r2_wheel_odometry_and_imu

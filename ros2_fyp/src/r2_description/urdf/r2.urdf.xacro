@@ -23,32 +23,26 @@
     <origin xyz="0.00 0.00 0.16" rpy="0 0 0"/>
   </joint>
 
-  <!-- Camera frame -->
+  <!-- Astra Camera frames -->
   <link name="camera_link"/>
+  
   <joint name="base_link_to_camera_link" type="fixed">
     <parent link="base_link"/>
     <child link="camera_link"/>
-  <!-- x forward, y left, z up (meters). Example values only -->
-    <origin xyz="-0.18 0.00 0.125" rpy="0 0 3.141592653589793"/>
+    <!-- Adjust these values based on your actual camera mounting position
+         x: forward, y: left, z: up (in meters)
+         rpy: roll, pitch, yaw (in radians) -->
+    <origin xyz="-0.15 0.00 0.11" rpy="0 -0.087 3.141592653589793"/>
   </joint>
-  
 
-  <!-- Depth optical frame -->
+  <!-- Camera optical frame (standard ROS camera convention: Z forward, X right, Y down) -->
   <link name="camera_depth_optical_frame"/>
-  <joint name="camera_link_to_camera_depth_optical" type="fixed">
+  
+  <joint name="camera_link_to_depth_optical" type="fixed">
     <parent link="camera_link"/>
     <child link="camera_depth_optical_frame"/>
-    <!-- Optical frame convention -->
-    <origin xyz="0 0 0" rpy="-1.57079632679 0 -1.57079632679"/>
-  </joint>
-
-  <!-- IR optical frame -->
-  <link name="camera_ir_optical_frame"/>
-  <joint name="camera_link_to_camera_ir_optical" type="fixed">
-    <parent link="camera_link"/>
-    <child link="camera_ir_optical_frame"/>
-    <!-- Optical frame convention -->
-    <origin xyz="0 0 0" rpy="-1.57079632679 0 -1.57079632679"/>
+    <!-- Rotate from camera_link to optical frame convention -->
+    <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966"/>
   </joint>
 
 </robot>

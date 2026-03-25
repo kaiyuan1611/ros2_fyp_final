@@ -1,0 +1,32 @@
+running develop
+Removing /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2-wheel-odometry.egg-link (link to .)
+running egg_info
+writing ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/entry_points.txt
+writing requirements to ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/requires.txt
+writing top-level names to ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/top_level.txt
+reading manifest file '../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tee/ros2_fyp/build/r2_wheel_odometry/build
+creating /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib
+creating /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib/r2_wheel_odometry
+copying r2_wheel_odometry/wheel_odom.py -> /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib/r2_wheel_odometry
+copying r2_wheel_odometry/__init__.py -> /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib/r2_wheel_odometry
+running install
+running install_lib
+creating /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry
+copying /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib/r2_wheel_odometry/wheel_odom.py -> /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry
+copying /home/tee/ros2_fyp/build/r2_wheel_odometry/build/lib/r2_wheel_odometry/__init__.py -> /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry
+byte-compiling /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry/wheel_odom.py to wheel_odom.cpython-310.pyc
+byte-compiling /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/r2_wheel_odometry -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index/packages
+copying package.xml -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/r2_wheel_odometry
+running install_egg_info
+Copying ../../build/r2_wheel_odometry/r2_wheel_odometry.egg-info to /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2_wheel_odometry-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wheel_odom script to /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/r2_wheel_odometry
+writing list of installed files to '/home/tee/ros2_fyp/build/r2_wheel_odometry/install.log'

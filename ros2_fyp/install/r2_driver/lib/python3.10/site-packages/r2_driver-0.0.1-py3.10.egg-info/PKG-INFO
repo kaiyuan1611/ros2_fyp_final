@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: r2-driver
+Version: 0.0.1
+Summary: ROS2 driver node for Yahboom Rosmaster R2 (rear motors + steering)
+Home-page: UNKNOWN
+Maintainer: tee
+Maintainer-email: you@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

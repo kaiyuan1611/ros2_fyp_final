@@ -1,0 +1,170 @@
+[0.062s] Invoking command in '/home/tee/ros2_fyp/build/astra_camera': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tee/ros2_fyp/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/astra_camera
+[0.109s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.749s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.752s] -- Found astra_camera_msgs: 1.0.1 (/home/tee/ros2_fyp/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.935s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.960s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.347s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[1.462s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.469s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.546s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.726s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[1.745s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.805s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[1.819s] -- Found image_publisher: 3.0.8 (/opt/ros/humble/share/image_publisher/cmake)
+[2.697s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[2.698s] -- Found JPEG library using standard module
+[2.701s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.702s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[2.702s]   not match the name of the calling package (JpegPkg).  This can lead to
+[2.703s]   problems in calling code that expects `find_package` result variables
+[2.703s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.704s] Call Stack (most recent call first):
+[2.704s]   /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[2.705s]   /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+[2.705s]   CMakeLists.txt:27 (find_package)
+[2.706s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.706s] [0m
+[2.707s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+[2.725s] -- libusb-1.0 found using pkgconfig
+[2.754s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.796s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[2.816s] -- Found tf2_eigen: 0.25.17 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.162s] -- Found tf2_sensor_msgs: 0.25.17 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[3.222s] -- ORRBEC Machine : aarch64
+[3.223s] 
+[3.223s] -- ORRBEC Machine Bits : 64
+[3.224s] 
+[3.224s] -- ORRBEC : arm64
+[3.334s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.686s] -- Configuring done
+[4.198s] -- Generating done
+[4.243s] -- Build files have been written to: /home/tee/ros2_fyp/build/astra_camera
+[4.284s] Invoked command in '/home/tee/ros2_fyp/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/tee/ros2_fyp/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/astra_camera
+[4.293s] Invoking command in '/home/tee/ros2_fyp/build/astra_camera': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tee/ros2_fyp/build/astra_camera -- -j4 -l4
+[4.520s] [35m[1mConsolidate compiler generated dependencies of target astra_camera[0m
+[4.892s] [ 87%] Built target astra_camera
+[4.944s] [35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[5.053s] [100%] Built target list_devices_node
+[5.097s] Invoked command in '/home/tee/ros2_fyp/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tee/ros2_fyp/build/astra_camera -- -j4 -l4
+[5.107s] Invoking command in '/home/tee/ros2_fyp/build/astra_camera': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tee/ros2_fyp/build/astra_camera
+[5.136s] -- Install configuration: "Debug"
+[5.138s] -- Execute custom install script
+[5.139s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib/libastra_camera.so
+[5.140s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib//libOpenNI2.so
+[5.142s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[5.143s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[5.144s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[5.145s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[5.146s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/lib/astra_camera//list_devices_node
+[5.155s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/constants.h
+[5.155s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/device_listener.h
+[5.156s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/dynamic_params.h
+[5.157s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/ob_camera_node.h
+[5.158s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[5.159s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/ob_frame_listener.h
+[5.159s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[5.160s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[5.161s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[5.162s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[5.163s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/ros_param_backend.h
+[5.163s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/types.h
+[5.164s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/utils.h
+[5.165s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[5.166s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[5.167s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[5.167s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[5.169s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/KinectProperties.h
+[5.173s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[5.175s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[5.177s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[5.177s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniCAPI.h
+[5.178s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniCEnums.h
+[5.179s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniCProperties.h
+[5.180s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniCTypes.h
+[5.180s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniEnums.h
+[5.181s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniPlatform.h
+[5.181s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniProperties.h
+[5.181s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniTest.h
+[5.182s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OniVersion.h
+[5.182s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/OpenNI.h
+[5.183s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/PS1080.h
+[5.183s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/PSLink.h
+[5.184s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/PrimeSense.h
+[5.185s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/SonixCamera.h
+[5.185s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/Win32/OniPlatformWin32.h
+[5.186s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/NiViewer
+[5.187s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI.ini
+[5.188s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/OniFile.ini
+[5.189s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/libOniFile.so
+[5.190s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/liborbbec.so
+[5.191s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/orbbec.ini
+[5.192s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/PS1080Console
+[5.193s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/SimpleRead
+[5.194s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/libDepthUtils.a
+[5.195s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm/libOpenNI2.so
+[5.196s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/NiViewer
+[5.197s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI.ini
+[5.198s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/OniFile.ini
+[5.199s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/libOniFile.so
+[5.200s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/liborbbec.so
+[5.201s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/orbbec.ini
+[5.202s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/PS1080Console
+[5.203s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/SimpleRead
+[5.204s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/libDepthUtils.a
+[5.204s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/arm64/libOpenNI2.so
+[5.205s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI.ini
+[5.206s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/OniFile.ini
+[5.207s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/libOniFile.so
+[5.208s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/liborbbec.so
+[5.209s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/orbbec.ini
+[5.210s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/openni2_redist/x64/libOpenNI2.so
+[5.211s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/include/openni2/util.h
+[5.213s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/.gitkeep
+[5.214s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/astra_mini.launch.py
+[5.215s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/dabai.launch.py
+[5.215s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.py
+[5.216s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.py
+[5.217s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.py
+[5.218s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/multi_astra_mini.launch.py
+[5.218s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/multi_dabai.launch.py
+[5.219s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.py
+[5.220s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/multi_dabai_dw.launch.py
+[5.221s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.py
+[5.222s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//config/.gitkeep
+[5.224s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/.gitkeep
+[5.225s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/astra_mini_params.yaml
+[5.225s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/camera_params_template.yaml
+[5.226s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/dabai_dcw_params.yaml
+[5.227s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/dabai_dw_params.yaml
+[5.228s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/dabai_params.yaml
+[5.228s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//params/dabai_pro_params.yaml
+[5.230s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//rviz/.gitkeep
+[5.231s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//rviz/multi_camera.rviz
+[5.232s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera//rviz/pointcloud.rviz
+[5.233s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/library_path.sh
+[5.233s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[5.235s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[5.243s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[5.245s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[5.245s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[5.246s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/path.sh
+[5.247s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/environment/path.dsv
+[5.247s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/local_setup.bash
+[5.247s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/local_setup.sh
+[5.248s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/local_setup.zsh
+[5.248s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/local_setup.dsv
+[5.249s] -- Symlinking: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/package.dsv
+[5.279s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[5.280s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/ament_index/resource_index/rclcpp_components/astra_camera
+[5.281s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.282s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[5.283s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.284s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[5.284s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[5.286s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/astra_camera/share/astra_camera/package.xml
+[5.294s] Invoked command in '/home/tee/ros2_fyp/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/home/tee/ros2_fyp/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tee/ros2_fyp/build/astra_camera

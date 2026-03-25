@@ -1,0 +1,3 @@
+[console_scripts]
+cloud_accumulator = r2_cloud_accumulator.cloud_accumulator:main
+

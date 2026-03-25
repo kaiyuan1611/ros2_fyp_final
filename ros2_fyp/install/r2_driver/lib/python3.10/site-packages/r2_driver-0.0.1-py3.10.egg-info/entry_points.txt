@@ -1,0 +1,3 @@
+[console_scripts]
+r2_driver_node = r2_driver.r2_driver_node:main
+

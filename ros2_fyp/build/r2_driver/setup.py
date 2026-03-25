@@ -1,1 +1,0 @@
-/home/tee/ros2_fyp/src/r2_driver/setup.py

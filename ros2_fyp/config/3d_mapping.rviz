@@ -1,0 +1,58 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Reference Frame: map
+      
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Show Names: true
+      
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Description Topic: /robot_description
+      
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan
+      Topic: /scan
+      Size: 0.05
+      Color: 255; 0; 0
+      
+    - Class: rviz_default_plugins/Map
+      Name: 2D Map (SLAM)
+      Topic: /map
+      Color Scheme: map
+      
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Depth PointCloud
+      Topic: /camera/depth/points
+      Size: 0.02
+      Color Transformer: RGB8
+      
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Octomap 3D
+      Topic: /occupied_cells_vis_array
+      Color: By Topic
+      
+    - Class: rviz_default_plugins/Map
+      Name: Projected 2D Map
+      Topic: /projected_map
+      Color Scheme: costmap
+      
+  Global Options:
+    Fixed Frame: map
+    
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 5.0
+      Focal Point:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0

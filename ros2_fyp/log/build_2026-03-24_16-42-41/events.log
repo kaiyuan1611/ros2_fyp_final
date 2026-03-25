@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000866] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001119] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001281] (-) JobUnselected: {'identifier': 'r2_bringup'}
+[0.001401] (-) JobUnselected: {'identifier': 'r2_description'}
+[0.001499] (-) JobUnselected: {'identifier': 'r2_driver'}
+[0.001595] (-) JobUnselected: {'identifier': 'r2_localization'}
+[0.001686] (-) JobUnselected: {'identifier': 'r2_rtabmap'}
+[0.001775] (-) JobUnselected: {'identifier': 'r2_wheel_odometry'}
+[0.001857] (-) JobUnselected: {'identifier': 'r2_wheel_odometry_and_imu'}
+[0.001940] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002042] (r2_cloud_accumulator) JobQueued: {'identifier': 'r2_cloud_accumulator', 'dependencies': OrderedDict()}
+[0.002214] (r2_cloud_accumulator) JobStarted: {'identifier': 'r2_cloud_accumulator'}
+[0.091568] (-) TimerEvent: {}
+[0.192757] (-) TimerEvent: {}
+[0.293434] (-) TimerEvent: {}
+[0.394154] (-) TimerEvent: {}
+[0.494965] (-) TimerEvent: {}
+[0.596067] (-) TimerEvent: {}
+[0.696824] (-) TimerEvent: {}
+[0.797554] (-) TimerEvent: {}
+[0.898428] (-) TimerEvent: {}
+[0.999499] (-) TimerEvent: {}
+[1.100826] (-) TimerEvent: {}
+[1.201732] (-) TimerEvent: {}
+[1.304664] (-) TimerEvent: {}
+[1.405691] (-) TimerEvent: {}
+[1.507076] (-) TimerEvent: {}
+[1.607816] (-) TimerEvent: {}
+[1.708616] (-) TimerEvent: {}
+[1.809593] (-) TimerEvent: {}
+[1.910585] (-) TimerEvent: {}
+[2.011279] (-) TimerEvent: {}
+[2.111933] (-) TimerEvent: {}
+[2.212685] (-) TimerEvent: {}
+[2.313472] (-) TimerEvent: {}
+[2.419354] (-) TimerEvent: {}
+[2.520158] (-) TimerEvent: {}
+[2.621101] (-) TimerEvent: {}
+[2.721901] (-) TimerEvent: {}
+[2.822905] (-) TimerEvent: {}
+[2.923836] (-) TimerEvent: {}
+[3.024564] (-) TimerEvent: {}
+[3.126786] (-) TimerEvent: {}
+[3.232678] (-) TimerEvent: {}
+[3.333432] (-) TimerEvent: {}
+[3.434860] (-) TimerEvent: {}
+[3.536581] (-) TimerEvent: {}
+[3.637684] (-) TimerEvent: {}
+[3.739036] (-) TimerEvent: {}
+[3.839879] (-) TimerEvent: {}
+[3.940705] (-) TimerEvent: {}
+[4.041762] (-) TimerEvent: {}
+[4.142910] (-) TimerEvent: {}
+[4.243747] (-) TimerEvent: {}
+[4.344699] (-) TimerEvent: {}
+[4.445719] (-) TimerEvent: {}
+[4.546705] (-) TimerEvent: {}
+[4.647463] (-) TimerEvent: {}
+[4.748789] (-) TimerEvent: {}
+[4.850799] (-) TimerEvent: {}
+[4.951621] (-) TimerEvent: {}
+[5.052327] (-) TimerEvent: {}
+[5.153074] (-) TimerEvent: {}
+[5.253857] (-) TimerEvent: {}
+[5.354776] (-) TimerEvent: {}
+[5.456049] (-) TimerEvent: {}
+[5.548803] (r2_cloud_accumulator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/r2_cloud_accumulator', 'build', '--build-base', '/home/tee/ros2_fyp/build/r2_cloud_accumulator/build', 'install', '--record', '/home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tee/ros2_fyp/src/r2_cloud_accumulator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tee', 'SSH_CLIENT': '192.168.1.20 44108 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/tee/.kiro-server/bin/f3e4928cf245d100dc44e637bdeefd3ea095589a/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tee/ros2_fyp/install/astra_camera/lib:/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/tee/.kiro-server/bin/f3e4928cf245d100dc44e637bdeefd3ea095589a/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/tee', 'OLDPWD': '/home/tee', 'TERM_PROGRAM_VERSION': '0.10.78', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7bae17f1-c71d-4ff9-b5da-e2f51e4d8e00.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tee/.kiro-server/bin/f3e4928cf245d100dc44e637bdeefd3ea095589a/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'id_ID.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/tee/.kiro-server/bin/f3e4928cf245d100dc44e637bdeefd3ea095589a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/tee/ros2_fyp/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tee', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tee/.kiro-server/bin/f3e4928cf245d100dc44e637bdeefd3ea095589a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2b7fa455cc.sock', 'TERM_PROGRAM': 'kiro', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_rtabmap:/home/tee/ros2_fyp/install/r2_localization:/home/tee/ros2_fyp/install/r2_driver:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_cloud_accumulator:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/astra_camera_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tee/ros2_fyp/build/r2_cloud_accumulator', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.20 44108 192.168.1.93 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tee/ros2_fyp/build/r2_cloud_accumulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/r2_wheel_odometry_and_imu/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_rtabmap:/home/tee/ros2_fyp/install/r2_localization:/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/r2_bringup:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/astra_camera_msgs'}, 'shell': False}
+[5.576493] (-) TimerEvent: {}
+[5.678223] (-) TimerEvent: {}
+[5.781684] (-) TimerEvent: {}
+[5.882805] (-) TimerEvent: {}
+[5.983748] (-) TimerEvent: {}
+[6.084694] (-) TimerEvent: {}
+[6.185562] (-) TimerEvent: {}
+[6.286334] (-) TimerEvent: {}
+[6.387171] (-) TimerEvent: {}
+[6.487987] (-) TimerEvent: {}
+[6.588748] (-) TimerEvent: {}
+[6.689481] (-) TimerEvent: {}
+[6.790188] (-) TimerEvent: {}
+[6.890947] (-) TimerEvent: {}
+[6.991708] (-) TimerEvent: {}
+[7.092386] (-) TimerEvent: {}
+[7.193046] (-) TimerEvent: {}
+[7.293728] (-) TimerEvent: {}
+[7.394604] (-) TimerEvent: {}
+[7.495409] (-) TimerEvent: {}
+[7.596503] (-) TimerEvent: {}
+[7.697244] (-) TimerEvent: {}
+[7.798070] (-) TimerEvent: {}
+[7.891507] (r2_cloud_accumulator) StdoutLine: {'line': b'running egg_info\n'}
+[7.898602] (-) TimerEvent: {}
+[7.904268] (r2_cloud_accumulator) StdoutLine: {'line': b'writing ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/PKG-INFO\n'}
+[7.911001] (r2_cloud_accumulator) StdoutLine: {'line': b'writing dependency_links to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/dependency_links.txt\n'}
+[7.917221] (r2_cloud_accumulator) StdoutLine: {'line': b'writing entry points to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/entry_points.txt\n'}
+[7.917852] (r2_cloud_accumulator) StdoutLine: {'line': b'writing requirements to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/requires.txt\n'}
+[7.918419] (r2_cloud_accumulator) StdoutLine: {'line': b'writing top-level names to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/top_level.txt\n'}
+[7.925874] (r2_cloud_accumulator) StdoutLine: {'line': b"reading manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'\n"}
+[7.932958] (r2_cloud_accumulator) StdoutLine: {'line': b"writing manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'\n"}
+[7.936024] (r2_cloud_accumulator) StdoutLine: {'line': b'running build\n'}
+[7.943339] (r2_cloud_accumulator) StdoutLine: {'line': b'running build_py\n'}
+[7.945746] (r2_cloud_accumulator) StdoutLine: {'line': b'copying r2_cloud_accumulator/cloud_accumulator.py -> /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator\n'}
+[7.946387] (r2_cloud_accumulator) StdoutLine: {'line': b'running install\n'}
+[7.946956] (r2_cloud_accumulator) StdoutLine: {'line': b'running install_lib\n'}
+[7.947532] (r2_cloud_accumulator) StdoutLine: {'line': b'copying /home/tee/ros2_fyp/build/r2_cloud_accumulator/build/lib/r2_cloud_accumulator/cloud_accumulator.py -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator\n'}
+[7.948080] (r2_cloud_accumulator) StdoutLine: {'line': b'byte-compiling /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator/cloud_accumulator.py to cloud_accumulator.cpython-310.pyc\n'}
+[7.962350] (r2_cloud_accumulator) StdoutLine: {'line': b'running install_data\n'}
+[7.962995] (r2_cloud_accumulator) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.965990] (r2_cloud_accumulator) StdoutLine: {'line': b"removing '/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[7.974121] (r2_cloud_accumulator) StdoutLine: {'line': b'Copying ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator-0.1.0-py3.10.egg-info\n'}
+[7.981130] (r2_cloud_accumulator) StdoutLine: {'line': b'running install_scripts\n'}
+[7.998712] (-) TimerEvent: {}
+[8.099475] (-) TimerEvent: {}
+[8.111432] (r2_cloud_accumulator) StdoutLine: {'line': b'Installing cloud_accumulator script to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/r2_cloud_accumulator\n'}
+[8.116805] (r2_cloud_accumulator) StdoutLine: {'line': b"writing list of installed files to '/home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log'\n"}
+[8.199747] (-) TimerEvent: {}
+[8.296329] (r2_cloud_accumulator) CommandEnded: {'returncode': 0}
+[8.300149] (-) TimerEvent: {}
+[8.394970] (r2_cloud_accumulator) JobEnded: {'identifier': 'r2_cloud_accumulator', 'rc': 0}
+[8.406314] (-) TimerEvent: {}
+[8.407865] (-) EventReactorShutdown: {}

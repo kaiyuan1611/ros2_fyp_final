@@ -1,0 +1,28 @@
+[0.073s] Invoking command in '/home/tee/ros2_fyp/build/r2_rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_rtabmap -- -j4 -l4
+[0.525s] Invoked command in '/home/tee/ros2_fyp/build/r2_rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_rtabmap -- -j4 -l4
+[0.572s] Invoking command in '/home/tee/ros2_fyp/build/r2_rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_rtabmap
+[0.605s] -- Install configuration: ""
+[0.608s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch
+[0.609s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_mapping.launch.py
+[0.610s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_with_config.launch.py
+[0.612s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_ir_optimized.launch.py
+[0.613s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_simple.launch.py
+[0.615s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_full_system.launch.py
+[0.617s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//config
+[0.618s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//config/rtabmap_config.yaml
+[0.619s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/package_run_dependencies/r2_rtabmap
+[0.620s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/parent_prefix_path/r2_rtabmap
+[0.624s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/ament_prefix_path.dsv
+[0.625s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/path.sh
+[0.627s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/path.dsv
+[0.628s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.bash
+[0.628s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.sh
+[0.629s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.zsh
+[0.629s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.dsv
+[0.629s] -- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/package.dsv
+[0.631s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/packages/r2_rtabmap
+[0.632s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/cmake/r2_rtabmapConfig.cmake
+[0.632s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/cmake/r2_rtabmapConfig-version.cmake
+[0.633s] -- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/package.xml
+[0.643s] Invoked command in '/home/tee/ros2_fyp/build/r2_rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_rtabmap

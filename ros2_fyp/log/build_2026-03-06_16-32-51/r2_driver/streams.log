@@ -1,0 +1,37 @@
+[5.138s] Invoking command in '/home/tee/ros2_fyp/build/r2_driver': PYTHONPATH=/home/tee/ros2_fyp/build/r2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tee/ros2_fyp/build/r2_driver/build
+[7.170s] running develop
+[9.162s] Removing /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2-driver.egg-link (link to .)
+[9.387s] Invoked command in '/home/tee/ros2_fyp/build/r2_driver' returned '0': PYTHONPATH=/home/tee/ros2_fyp/build/r2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tee/ros2_fyp/build/r2_driver/build
+[9.397s] Invoking command in '/home/tee/ros2_fyp/src/r2_driver': PYTHONPATH=/home/tee/ros2_fyp/build/r2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_driver build --build-base /home/tee/ros2_fyp/build/r2_driver/build install --record /home/tee/ros2_fyp/build/r2_driver/install.log --single-version-externally-managed install_data --force
+[11.587s] running egg_info
+[11.588s] writing ../../build/r2_driver/r2_driver.egg-info/PKG-INFO
+[11.588s] writing dependency_links to ../../build/r2_driver/r2_driver.egg-info/dependency_links.txt
+[11.589s] writing entry points to ../../build/r2_driver/r2_driver.egg-info/entry_points.txt
+[11.589s] writing requirements to ../../build/r2_driver/r2_driver.egg-info/requires.txt
+[11.590s] writing top-level names to ../../build/r2_driver/r2_driver.egg-info/top_level.txt
+[11.599s] reading manifest file '../../build/r2_driver/r2_driver.egg-info/SOURCES.txt'
+[11.601s] writing manifest file '../../build/r2_driver/r2_driver.egg-info/SOURCES.txt'
+[11.602s] running build
+[11.604s] running build_py
+[11.605s] creating /home/tee/ros2_fyp/build/r2_driver/build
+[11.605s] creating /home/tee/ros2_fyp/build/r2_driver/build/lib
+[11.606s] creating /home/tee/ros2_fyp/build/r2_driver/build/lib/r2_driver
+[11.606s] copying r2_driver/r2_driver_node.py -> /home/tee/ros2_fyp/build/r2_driver/build/lib/r2_driver
+[11.608s] copying r2_driver/__init__.py -> /home/tee/ros2_fyp/build/r2_driver/build/lib/r2_driver
+[11.613s] running install
+[11.616s] running install_lib
+[11.622s] creating /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver
+[11.632s] copying /home/tee/ros2_fyp/build/r2_driver/build/lib/r2_driver/r2_driver_node.py -> /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver
+[11.644s] copying /home/tee/ros2_fyp/build/r2_driver/build/lib/r2_driver/__init__.py -> /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver
+[11.664s] byte-compiling /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver/r2_driver_node.py to r2_driver_node.cpython-310.pyc
+[11.684s] byte-compiling /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver/__init__.py to __init__.cpython-310.pyc
+[11.694s] running install_data
+[11.716s] copying resource/r2_driver -> /home/tee/ros2_fyp/install/r2_driver/share/ament_index/resource_index/packages
+[11.729s] copying package.xml -> /home/tee/ros2_fyp/install/r2_driver/share/r2_driver
+[11.739s] copying launch/r2_driver.launch.py -> /home/tee/ros2_fyp/install/r2_driver/share/r2_driver/launch
+[11.742s] running install_egg_info
+[11.780s] Copying ../../build/r2_driver/r2_driver.egg-info to /home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages/r2_driver-0.0.1-py3.10.egg-info
+[11.782s] running install_scripts
+[11.900s] Installing r2_driver_node script to /home/tee/ros2_fyp/install/r2_driver/lib/r2_driver
+[11.907s] writing list of installed files to '/home/tee/ros2_fyp/build/r2_driver/install.log'
+[12.084s] Invoked command in '/home/tee/ros2_fyp/src/r2_driver' returned '0': PYTHONPATH=/home/tee/ros2_fyp/build/r2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_driver build --build-base /home/tee/ros2_fyp/build/r2_driver/build install --record /home/tee/ros2_fyp/build/r2_driver/install.log --single-version-externally-managed install_data --force

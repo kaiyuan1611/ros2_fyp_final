@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_mapping.launch.py
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_with_config.launch.py
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_ir_optimized.launch.py
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_simple.launch.py
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//launch/rtabmap_full_system.launch.py
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//config
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap//config/rtabmap_config.yaml
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/package_run_dependencies/r2_rtabmap
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/parent_prefix_path/r2_rtabmap
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/ament_prefix_path.dsv
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/path.sh
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/environment/path.dsv
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.bash
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.sh
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.zsh
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/local_setup.dsv
+-- Installing: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/package.dsv
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/ament_index/resource_index/packages/r2_rtabmap
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/cmake/r2_rtabmapConfig.cmake
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/cmake/r2_rtabmapConfig-version.cmake
+-- Up-to-date: /home/tee/ros2_fyp/install/r2_rtabmap/share/r2_rtabmap/package.xml

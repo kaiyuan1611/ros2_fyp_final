@@ -1,1 +1,18 @@
-/home/tee/ros2_fyp/build/r2_driver/package.xml
+<?xml version="1.0"?>
+<package format="3">
+  <name>r2_driver</name>
+  <version>0.0.1</version>
+  <description>ROS2 driver node for Yahboom Rosmaster R2 (motors + steering servo)</description>
+
+  <maintainer email="you@example.com">tee</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

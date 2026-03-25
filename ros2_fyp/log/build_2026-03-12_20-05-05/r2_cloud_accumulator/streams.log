@@ -1,0 +1,22 @@
+[3.250s] Invoking command in '/home/tee/ros2_fyp/src/r2_cloud_accumulator': PYTHONPATH=/home/tee/ros2_fyp/build/r2_cloud_accumulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_cloud_accumulator build --build-base /home/tee/ros2_fyp/build/r2_cloud_accumulator/build install --record /home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log --single-version-externally-managed install_data
+[4.595s] running egg_info
+[4.598s] writing ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/PKG-INFO
+[4.599s] writing dependency_links to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/dependency_links.txt
+[4.600s] writing entry points to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/entry_points.txt
+[4.602s] writing requirements to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/requires.txt
+[4.602s] writing top-level names to ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/top_level.txt
+[4.610s] reading manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'
+[4.614s] writing manifest file '../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info/SOURCES.txt'
+[4.614s] running build
+[4.615s] running build_py
+[4.616s] running install
+[4.618s] running install_lib
+[4.625s] running install_data
+[4.627s] copying launch/cloud_accumulator.launch.py -> /home/tee/ros2_fyp/install/r2_cloud_accumulator/share/r2_cloud_accumulator/launch
+[4.628s] running install_egg_info
+[4.635s] removing '/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator-0.1.0-py3.10.egg-info' (and everything under it)
+[4.636s] Copying ../../build/r2_cloud_accumulator/r2_cloud_accumulator.egg-info to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages/r2_cloud_accumulator-0.1.0-py3.10.egg-info
+[4.646s] running install_scripts
+[4.731s] Installing cloud_accumulator script to /home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/r2_cloud_accumulator
+[4.733s] writing list of installed files to '/home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log'
+[4.859s] Invoked command in '/home/tee/ros2_fyp/src/r2_cloud_accumulator' returned '0': PYTHONPATH=/home/tee/ros2_fyp/build/r2_cloud_accumulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_cloud_accumulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2_cloud_accumulator build --build-base /home/tee/ros2_fyp/build/r2_cloud_accumulator/build install --record /home/tee/ros2_fyp/build/r2_cloud_accumulator/install.log --single-version-externally-managed install_data

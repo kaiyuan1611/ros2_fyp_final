@@ -1,0 +1,35 @@
+[0.126s] Invoking command in '/home/tee/ros2_fyp/build/r2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/r2_description -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/r2_description
+[0.176s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.225s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.745s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.753s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.767s] -- Added test 'xmllint' to check XML markup files
+[1.788s] -- Configuring done
+[1.845s] -- Generating done
+[1.858s] -- Build files have been written to: /home/tee/ros2_fyp/build/r2_description
+[2.333s] Invoked command in '/home/tee/ros2_fyp/build/r2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/r2_description -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/r2_description
+[2.348s] Invoking command in '/home/tee/ros2_fyp/build/r2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_description -- -j4 -l4
+[2.604s] Invoked command in '/home/tee/ros2_fyp/build/r2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/r2_description -- -j4 -l4
+[2.660s] Invoking command in '/home/tee/ros2_fyp/build/r2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_description
+[2.708s] -- Install configuration: ""
+[2.712s] -- Execute custom install script
+[2.716s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/launch/description.launch.py
+[2.719s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/urdf/r2.urdf.xacro
+[2.723s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/package_run_dependencies/r2_description
+[2.726s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/parent_prefix_path/r2_description
+[2.729s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/ament_prefix_path.sh
+[2.732s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/ament_prefix_path.dsv
+[2.736s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/path.sh
+[2.741s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/path.dsv
+[2.744s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.bash
+[2.747s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.sh
+[2.750s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.zsh
+[2.753s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.dsv
+[2.757s] -- Symlinking: /home/tee/ros2_fyp/install/r2_description/share/r2_description/package.dsv
+[2.832s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/packages/r2_description
+[2.835s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/cmake/r2_descriptionConfig.cmake
+[2.838s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/cmake/r2_descriptionConfig-version.cmake
+[2.840s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/r2_description/share/r2_description/package.xml
+[2.846s] Invoked command in '/home/tee/ros2_fyp/build/r2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/r2_description

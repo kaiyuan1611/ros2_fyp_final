@@ -40,15 +40,6 @@ def generate_launch_description():
         )
     )
 
-    # --- Node: wheel odom (your ros2 run r2_wheel_odometry wheel_odom) ---
-    wheel_odom_node = Node(
-        package='r2_wheel_odometry',
-        executable='wheel_odom',
-        name='wheel_odom',
-        output='screen'
-        # parameters=[...],  # add your odom params here if your node expects any
-    )
-
     # --- Include: rplidar_ros (your ros2 launch ... serial_port:= ... serial_baudrate:= ...) ---
     rplidar_share = get_package_share_directory('rplidar_ros')
     rplidar_launch = IncludeLaunchDescription(
@@ -61,14 +52,6 @@ def generate_launch_description():
         }.items()
     )
 
-    # --- Include: Astra camera launch ---
-    astra_share = get_package_share_directory('astra_camera')
-    astra_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(astra_share, 'launch', 'astra_mini.launch.py')
-        )
-    )
-
     # --- Include: r2_driver launch ---
     r2_driver_share = get_package_share_directory('r2_driver')
     r2_driver_launch = IncludeLaunchDescription(
@@ -77,16 +60,32 @@ def generate_launch_description():
         )
     )
 
+    # --- Include: Astra camera ---
+    astra_camera_share = get_package_share_directory('astra_camera')
+    astra_camera_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(astra_camera_share, 'launch', 'astra_mini.launch.py')
+        )
+    )
+
+    # --- Node: r2_wheel_odometry ---
+    wheel_odom_node = Node(
+        package='r2_wheel_odometry',
+        executable='wheel_odom',
+        name='wheel_odom',
+        output='screen',
+    )
+
     return LaunchDescription([
         declare_rplidar_port,
         declare_rplidar_baud,
         declare_use_teleop,
 
         r2_description_launch,
-        wheel_odom_node,
         rplidar_launch,
-        astra_launch,
         r2_driver_launch,
+        astra_camera_launch,
+        wheel_odom_node,
 
         # teleop_node,  # uncomment if you really want teleop inside this launch
     ])

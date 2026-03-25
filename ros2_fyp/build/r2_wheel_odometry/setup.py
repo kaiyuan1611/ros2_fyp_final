@@ -1,1 +1,0 @@
-/home/tee/ros2_fyp/src/r2_wheel_odometry/setup.py

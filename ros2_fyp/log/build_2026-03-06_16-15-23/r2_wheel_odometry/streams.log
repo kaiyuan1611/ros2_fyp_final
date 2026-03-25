@@ -1,0 +1,17 @@
+[4.919s] Invoking command in '/home/tee/ros2_fyp/build/r2_wheel_odometry': PYTHONPATH=/home/tee/ros2_fyp/build/r2_wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tee/ros2_fyp/build/r2_wheel_odometry/build --no-deps symlink_data
+[6.659s] running develop
+[7.631s] running egg_info
+[7.632s] writing r2_wheel_odometry.egg-info/PKG-INFO
+[7.633s] writing dependency_links to r2_wheel_odometry.egg-info/dependency_links.txt
+[7.635s] writing entry points to r2_wheel_odometry.egg-info/entry_points.txt
+[7.635s] writing requirements to r2_wheel_odometry.egg-info/requires.txt
+[7.636s] writing top-level names to r2_wheel_odometry.egg-info/top_level.txt
+[7.645s] reading manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'
+[7.649s] writing manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'
+[7.655s] running build_ext
+[7.656s] Creating /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2-wheel-odometry.egg-link (link to .)
+[7.660s] Installing wheel_odom script to /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/r2_wheel_odometry
+[7.662s] 
+[7.663s] Installed /home/tee/ros2_fyp/build/r2_wheel_odometry
+[7.663s] running symlink_data
+[7.810s] Invoked command in '/home/tee/ros2_fyp/build/r2_wheel_odometry' returned '0': PYTHONPATH=/home/tee/ros2_fyp/build/r2_wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tee/ros2_fyp/build/r2_wheel_odometry/build --no-deps symlink_data

@@ -1,0 +1,57 @@
+[1.773s] Invoking command in '/home/tee/ros2_fyp/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/rplidar_ros -- -j4 -l4
+[2.408s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[2.408s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[2.460s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[2.645s] [  5%] Built target rplidar_client
+[2.773s] [ 52%] Built target rplidar_node
+[2.870s] [100%] Built target rplidar_composition
+[2.957s] Invoked command in '/home/tee/ros2_fyp/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/rplidar_ros -- -j4 -l4
+[2.981s] Invoking command in '/home/tee/ros2_fyp/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/rplidar_ros
+[3.056s] -- Install configuration: ""
+[3.065s] -- Execute custom install script
+[3.068s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[3.070s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[3.071s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[3.078s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[3.079s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[3.079s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[3.080s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[3.081s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[3.101s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[3.103s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[3.106s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[3.108s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[3.111s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[3.115s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[3.125s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[3.125s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[3.127s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[3.131s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[3.132s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[3.141s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[3.141s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[3.142s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[3.142s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[3.148s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[3.148s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[3.164s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[3.165s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[3.165s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[3.166s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[3.169s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[3.174s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[3.176s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[3.178s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[3.186s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[3.188s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[3.191s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[3.193s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[3.198s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[3.199s] -- Symlinking: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/package.dsv
+[3.292s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[3.293s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.294s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.295s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[3.295s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[3.296s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/rplidar_ros/share/rplidar_ros/package.xml
+[3.365s] Invoked command in '/home/tee/ros2_fyp/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_wheel_odometry:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/rplidar_ros

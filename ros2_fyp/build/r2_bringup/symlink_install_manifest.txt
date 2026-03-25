@@ -1,4 +1,7 @@
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/astra_camera.launch.py
 /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/bringup.launch.py
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/filtered_octomap.launch.py
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/octomap.launch.py
 /home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/package_run_dependencies/r2_bringup
 /home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/parent_prefix_path/r2_bringup
 /home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/ament_prefix_path.sh
