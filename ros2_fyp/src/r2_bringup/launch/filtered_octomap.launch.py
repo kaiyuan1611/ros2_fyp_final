@@ -29,8 +29,8 @@ def generate_launch_description():
         parameters=[{
             'resolution': resolution,
             'frame_id': frame_id,
-            'sensor_model.max_range': 3.0,  # Reduced from 5.0 - less noise from far objects
-            'sensor_model.min_range': 0.4,  # Increased from 0.3 - avoid camera body
+            'sensor_model.max_range': 3.0,  # Reduced from 5.0
+            'sensor_model.min_range': 0.4,  # Increased from 0.3 
             'latch': True,
             
             # Ground filtering
