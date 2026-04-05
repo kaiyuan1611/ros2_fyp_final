@@ -32,7 +32,7 @@
     <origin xyz="-0.15 0.00 0.11" rpy="0 -0.087 3.141592653589793"/>
   </joint>
 
-  <!-- Camera optical frame (standard ROS camera convention: Z forward, X right, Y down) -->
+  <!-- Camera depth optical frame -->
   <link name="camera_depth_optical_frame"/>
   
   <joint name="camera_link_to_depth_optical" type="fixed">
