@@ -2,36 +2,21 @@
 import math
 import time
 from std_msgs.msg import Float32
-
 import rclpy
 from rclpy.node import Node
-
 from geometry_msgs.msg import Twist, TransformStamped
 from nav_msgs.msg import Odometry
 from tf2_ros import TransformBroadcaster
-
 from Rosmaster_Lib import Rosmaster
-
 
 def clamp(v, lo, hi):
     return max(lo, min(hi, v))
-
 
 def yaw_to_quat(yaw: float):
     h = 0.5 * yaw
     return (0.0, 0.0, math.sin(h), math.cos(h))
 
-
 class WheelOdom(Node):
-    """
-    Encoder + Ackermann odometry for Yahboom Rosmaster R2.
-    - Reads M2 (rear-left) and M4 (rear-right) encoder ticks from Rosmaster.
-    - Computes v from rear wheels.
-    - Computes yaw_rate from steering inferred from /cmd_vel.angular.z (matches your driver mapping).
-    - Publishes:
-        /odom  (nav_msgs/Odometry)
-        TF: odom -> base_footprint
-    """
 
     def __init__(self):
         super().__init__('r2_wheel_odometry')
@@ -52,14 +37,11 @@ class WheelOdom(Node):
         self.delta_rad = 0.0
         self.create_subscription(Float32, 'steering_angle', self.on_steer, 10)
 
-        # Must match your driver steering mapping
         self.declare_parameter('ang_z_for_max_steer', 1.0)      # rad/s that maps to max steer
         self.declare_parameter('max_steer_angle_deg', 30.0)     # ± from center
         self.declare_parameter('center_angle_deg', 90.0)
         self.declare_parameter('min_angle_deg', 45.0)
         self.declare_parameter('max_angle_deg', 135.0)
-
-        # If you later measure actual wheel steering angle and need scaling, set k != 1
         self.declare_parameter('steer_scale', 1.0)
 
         # ---- Load params ----
@@ -81,7 +63,6 @@ class WheelOdom(Node):
         self.max_angle_deg = float(self.get_parameter('max_angle_deg').value)
         self.steer_scale = float(self.get_parameter('steer_scale').value)
 
-        # Encoder tuple is (M1, M2, M3, M4)
         self.IDX_L = 1  # M2 rear-left
         self.IDX_R = 3  # M4 rear-right
 
@@ -120,20 +101,6 @@ class WheelOdom(Node):
         self.delta_rad = float(msg.data) * self.steer_scale
 
     def steering_delta_rad_from_cmdvel(self) -> float:
-        """
-        Match your driver mapping exactly:
-
-          norm = clamp(ang_z / ang_z_for_max_steer, -1, 1)
-          steering_angle_deg = center - norm * max_steer_angle_deg
-          clamp steering within [min_angle_deg, max_angle_deg]
-
-        Physical observation:
-          smaller servo angle => left
-
-        Convert servo command -> Ackermann delta:
-          delta_deg = center - steering_angle_deg  (left positive)
-          delta_rad = radians(delta_deg) * steer_scale
-        """
         ang_z = float(self.last_cmd.angular.z)
 
         if self.ang_z_for_max_steer > 0.0:
