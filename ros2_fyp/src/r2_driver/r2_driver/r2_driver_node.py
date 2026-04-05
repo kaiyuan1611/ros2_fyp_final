@@ -2,17 +2,12 @@
 
 import math
 from std_msgs.msg import Float32
-
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-
 from Rosmaster_Lib import Rosmaster
-
-
 def clamp(v, lo, hi):
     return max(lo, min(hi, v))
-
 
 class R2DriverNode(Node):
     """
@@ -47,10 +42,7 @@ class R2DriverNode(Node):
         self.max_angle = float(self.get_parameter('max_angle_deg').value)
         self.cmd_vel_timeout = float(self.get_parameter('cmd_vel_timeout').value)
         self.control_rate_hz = float(self.get_parameter('control_rate_hz').value)
-
-        # Angular.z at which we apply max steering (you can tune this)
         self.ang_z_for_max_steer = 1.0  # rad/s
-
         self.get_logger().info("Initializing Rosmaster R2 hardware...")
         self.bot = Rosmaster(car_type=5)
         self.bot.set_car_type(5)
@@ -142,7 +134,6 @@ class R2DriverNode(Node):
             pass
         super().destroy_node()
 
-
 def main(args=None):
     rclpy.init(args=args)
     node = R2DriverNode()
@@ -153,7 +144,6 @@ def main(args=None):
     finally:
         node.destroy_node()
         rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
