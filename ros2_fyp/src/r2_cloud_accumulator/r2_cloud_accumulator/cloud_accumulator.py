@@ -1,15 +1,3 @@
-"""
-Point cloud accumulator node — manual trigger mode.
-
-Subscribes to /camera/depth/points and buffers the latest cloud.
-Only accumulates into the 3D map when you call the ~/capture service.
-Call ~/clear_map to reset.
-
-Usage:
-  ros2 service call /cloud_accumulator/capture std_srvs/srv/Empty
-  ros2 service call /cloud_accumulator/clear_map std_srvs/srv/Empty
-"""
-
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
