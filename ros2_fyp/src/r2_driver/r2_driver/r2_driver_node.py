@@ -10,18 +10,10 @@ def clamp(v, lo, hi):
     return max(lo, min(hi, v))
 
 class R2DriverNode(Node):
-    """
-    ROS2 driver for Yahboom Rosmaster R2.
-
-    - Subscribes to /cmd_vel (geometry_msgs/Twist)
-    - Uses linear.x for forward/backward speed
-    - Uses angular.z for steering (mapped to servo angle)
-    """
 
     def __init__(self):
         super().__init__('r2_driver')
 
-        # Parameters (can be overridden via ROS2 params)
         self.declare_parameter('max_speed', 1.0)            # m/s
         self.declare_parameter('max_steer_angle_deg', 30.0) # ± steering from center
         self.declare_parameter('servo_id', 1)               # steering servo channel
@@ -30,10 +22,8 @@ class R2DriverNode(Node):
         self.declare_parameter('max_angle_deg', 135.0)
         self.declare_parameter('cmd_vel_timeout', 0.5)      # seconds
         self.declare_parameter('control_rate_hz', 20.0)     # loop rate
-
         self.steer_pub = self.create_publisher(Float32, 'steering_angle', 10)
         self.last_steer_delta_rad = 0.0
-
         self.max_speed = float(self.get_parameter('max_speed').value)
         self.max_steer_angle_deg = float(self.get_parameter('max_steer_angle_deg').value)
         self.servo_id = int(self.get_parameter('servo_id').value)
